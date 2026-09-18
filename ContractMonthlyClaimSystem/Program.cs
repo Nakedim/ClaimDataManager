@@ -37,7 +37,7 @@ namespace ClaimApp
                         ViewClaim(db);
                         break;
                     case "4":
-                        //DeleteClaim(db);
+                        DeleteClaim(db);
                         break;
                     case "5":
                         running = false;
@@ -46,6 +46,14 @@ namespace ClaimApp
                         Console.WriteLine("Invalid option");
                         break;
                 }
+            }
+            if (db.Database.CanConnect())
+            {
+                Console.WriteLine("Database exists and is accessible!");
+            }
+            else
+            {
+                Console.WriteLine("Database does not exist yet.");
             }
 
         }
@@ -63,12 +71,34 @@ namespace ClaimApp
                
                    LecturerName = lecturename,
                     HoursWorked = hoursworked
-                };  
-                  db.Claims.Add(newClaim);
-                //db.SaveChanges();
-                Console.WriteLine("Claim added successfully!");
+                };
+                db.Claims.Add(newClaim);
+                db.SaveChanges();
+                Console.WriteLine("Claim Successfully saved");
 
-                Console.WriteLine($"Generated Claim ID: {newClaim.ClaimId}");
+
+                string input = Console.ReadLine();
+                if (!string.IsNullOrEmpty(input)) 
+                {
+                    if (int.TryParse(Console.ReadLine(), out int newAmount))
+                    {
+                        newClaim.TotalAmount = newAmount;
+
+                    }
+                }
+           
+                Console.WriteLine($"Current Amount: R{newClaim.TotalAmount:N2}");
+
+                Console.Write("Enter new Total Amount (or press Enter to keep current"); 
+
+
+                        Console.WriteLine($"Generated Claim ID: {newClaim.ClaimId}");
+
+
+            }
+            else
+            {
+                Console.WriteLine("Error");
             }
      
   
@@ -87,6 +117,7 @@ namespace ClaimApp
             {
 
               var targetClaim = db.Claims.Find(ClaimId); 
+
                 if (targetClaim == null)
                 {
                     Console.WriteLine($"Claim id: {ClaimId} not found");
