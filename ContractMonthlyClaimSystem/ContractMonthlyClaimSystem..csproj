@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<!-- 1. Upgraded from net8.0 to net9.0 -->
+		<TargetFramework>net9.0</TargetFramework>
+		<RootNamespace>ContractMonthlyClaimSystem_</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- 2. Upgraded package versions from 8.0.0 to 9.0.0 -->
+		<PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+	</ItemGroup>
+
+</Project>

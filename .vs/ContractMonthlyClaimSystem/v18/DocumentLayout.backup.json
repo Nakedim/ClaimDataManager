@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nmontsho\\source\\repos\\ContractMonthlyClaimSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56B0C096-2D94-4FF4-B9CE-EA5FB4276E93}|ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj|c:\\users\\nmontsho\\source\\repos\\contractmonthlyclaimsystem\\contractmonthlyclaimsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B0C096-2D94-4FF4-B9CE-EA5FB4276E93}|ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj|solutionrelative:contractmonthlyclaimsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B0C096-2D94-4FF4-B9CE-EA5FB4276E93}|ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj|c:\\users\\nmontsho\\source\\repos\\contractmonthlyclaimsystem\\contractmonthlyclaimsystem\\contractmonthlyclaimsystem..csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56B0C096-2D94-4FF4-B9CE-EA5FB4276E93}|ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj|solutionrelative:contractmonthlyclaimsystem\\contractmonthlyclaimsystem..csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContractMonthlyClaimSystem..csproj",
+              "DocumentMoniker": "C:\\Users\\nmontsho\\source\\repos\\ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj",
+              "RelativeDocumentMoniker": "ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj",
+              "ToolTip": "C:\\Users\\nmontsho\\source\\repos\\ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj",
+              "RelativeToolTip": "ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem..csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-18T10:09:17.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nmontsho\\source\\repos\\ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ContractMonthlyClaimSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\nmontsho\\source\\repos\\ContractMonthlyClaimSystem\\ContractMonthlyClaimSystem\\Program.cs*",
+              "RelativeToolTip": "ContractMonthlyClaimSystem\\Program.cs*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAqwEMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T10:05:57.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
