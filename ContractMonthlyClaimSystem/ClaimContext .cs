@@ -15,7 +15,7 @@ namespace ContractMonthlyClaimSystem_
 
         public ClaimContext(DbContextOptions<ClaimContext>options): base(options)
         {
-            
+           
         }
 
         
@@ -25,7 +25,8 @@ namespace ContractMonthlyClaimSystem_
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source = cliam.db");
+            optionsBuilder.UseSqlite("Data Source = claim.db");
         }
+
     }
 }
